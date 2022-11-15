@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.container{
+    width: 100%;
+    height: 100vh;
+    background-color: cornflowerblue;
+    color: #fff;
+}
+h1{
+    margin-bottom: 100px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    margin: 60px20px;
+    font-size: 16px;
+    outline: none;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'roboto' sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    border: 1px solid black;
+    color: #000;;
+}
+.bulb-off.png{
+    width: 1px;
+    height: 3px;
+}
